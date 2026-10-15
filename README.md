@@ -18,7 +18,7 @@ Envoi d’un ICMP avec adresse source falsifiée.
 
 ## Utilisation
 
-sudo python3 recon.py --sniff --interface eth0 --filter icmp --count 10
-sudo python3 recon.py --icmp 10.0.0.5 --payload "Hello"
-sudo python3 recon.py --syn 10.0.0.5 --port 80
-sudo python3 recon.py --spoof 10.0.0.5 --fake-src 192.168.1.100
+sudo python3 recon.py --sniff --interface eth0 --filter icmp --count 10  
+sudo python3 recon.py --icmp 10.0.0.5 --payload "Hello"  
+sudo python3 recon.py --syn 10.0.0.5 --port 80  
+sudo python3 recon.py --spoof 10.0.0.5 --fake-src 192.168.1.100  
